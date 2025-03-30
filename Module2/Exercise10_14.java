@@ -28,7 +28,6 @@ class Exercise10_14 {
 
         System.out.println("Today's date is " + date.getDay() + "/" + (date.getMonth() + 1) + "/" + date.getYear());
         System.out.println("The date after " + elapsedTime + " milliseconds have passed will be " + date2.getDay() + "/" + (date2.getMonth() + 1) + "/" + date2.getYear());
-
     }
 }
 
@@ -48,8 +47,6 @@ class MyDate {
     }
     public MyDate(long milliseconds) {
         this.setDate(milliseconds);
-
-
 
 }
     public MyDate(int year, int month, int day) {
