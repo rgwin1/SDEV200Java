@@ -56,6 +56,3 @@ public class Exercise14_1 extends Application {
         Application.launch(args);
     }
 }
-
-//images folder didn't have a valid france flag, and I wasn't sure if i should use .gif extension
-//I chose what I chose to complete the assignment.
