@@ -10,21 +10,21 @@ public class Exercise14_1 extends Application {
     public void start (Stage primaryStage) {
         //create gridpane
         GridPane gridpane = new GridPane();
-        //create and set china image?
+        //create and set china image
         Image china = new Image("Images/china.gif");
         ImageView chinaIV = new ImageView();
         chinaIV.setImage(china);
         chinaIV.setFitWidth(150);
         chinaIV.setFitHeight(100);
         chinaIV.setPreserveRatio(true);
-        //create and set turkey?
+        //create and set france
         Image france = new Image("Images/france.gif");
         ImageView franceIV = new ImageView();
         franceIV.setImage(france);
         franceIV.setFitWidth(150);
         franceIV.setFitHeight(100);
         franceIV.setPreserveRatio(true);
-        //create and set US?
+        //create and set US
         Image unitedS = new Image("Images/us.gif");
         ImageView unitedSIV = new ImageView();
         unitedSIV.setImage(unitedS);
@@ -38,7 +38,7 @@ public class Exercise14_1 extends Application {
         unitedKIV.setFitWidth(150);
         unitedKIV.setFitHeight(100);
         unitedKIV.setPreserveRatio(true);
-        //add images to gridpane?
+        //add images to gridpane
         gridpane.add(unitedKIV, 0, 0);
         gridpane.add(chinaIV, 1, 0);
         gridpane.add(franceIV, 0, 1);
