@@ -11,26 +11,38 @@ public class Exercise14_1 extends Application {
         //create gridpane
         GridPane gridpane = new GridPane();
         //create and set china image?
-        Image china = new Image("Images/china.jpg");
+        Image china = new Image("Images/china.gif");
         ImageView chinaIV = new ImageView();
         chinaIV.setImage(china);
+        chinaIV.setFitWidth(150);
+        chinaIV.setFitHeight(100);
+        chinaIV.setPreserveRatio(true);
         //create and set turkey?
-        Image turkey = new Image("Images/turkey.jpg");
-        ImageView turkeyIV = new ImageView();
-        turkeyIV.setImage(turkey);
+        Image france = new Image("Images/france.gif");
+        ImageView franceIV = new ImageView();
+        franceIV.setImage(france);
+        franceIV.setFitWidth(150);
+        franceIV.setFitHeight(100);
+        franceIV.setPreserveRatio(true);
         //create and set US?
-        Image unitedS = new Image("Images/us.jpg");
+        Image unitedS = new Image("Images/us.gif");
         ImageView unitedSIV = new ImageView();
         unitedSIV.setImage(unitedS);
+        unitedSIV.setFitWidth(150);
+        unitedSIV.setFitHeight(100);
+        unitedSIV.setPreserveRatio(true);
         //created and set uk
-        Image unitedK = new Image("Images/uk.jpg");
+        Image unitedK = new Image("Images/uk.gif");
         ImageView unitedKIV = new ImageView();
         unitedKIV.setImage(unitedK);
+        unitedKIV.setFitWidth(150);
+        unitedKIV.setFitHeight(100);
+        unitedKIV.setPreserveRatio(true);
         //add images to gridpane?
-        gridpane.add(chinaIV, 0, 0);
-        gridpane.add(turkeyIV, 1, 0);
-        gridpane.add(unitedSIV, 0, 1);
-        gridpane.add(unitedKIV, 1, 1);
+        gridpane.add(unitedKIV, 0, 0);
+        gridpane.add(chinaIV, 1, 0);
+        gridpane.add(franceIV, 0, 1);
+        gridpane.add(unitedSIV, 1, 1);
         //set gaps between columns and rows
         gridpane.setHgap(3.0);
         gridpane.setVgap(3.0);
