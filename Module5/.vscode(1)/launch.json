@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Run Exercise14_1",
+        "request": "launch",
+        "mainClass": "Exercise14_1",
+        "vmArgs": "--module-path C:/javafx-sdk-24/lib --add-modules javafx.controls,javafx.fxml"
+      },
+      {
+        "type": "java",
+        "name": "Run Exercise15_7",
+        "request": "launch",
+        "mainClass": "Exercise15_7",
+        "vmArgs": "--module-path C:/javafx-sdk-24/lib --add-modules javafx.controls,javafx.fxml"
+      },
+      {
+        "type": "java",
+        "name": "Run Exercise16_17",
+        "request": "launch",
+        "mainClass": "Exercise16_17",
+        "vmArgs": "--module-path C:/javafx-sdk-24/lib --add-modules javafx.controls,javafx.fxml"
+      }
+    ]
+  }
+  
