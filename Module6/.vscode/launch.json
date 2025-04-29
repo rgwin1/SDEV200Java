@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "java",
+        "name": "Run Exercise34_1",
+        "request": "launch",
+        "mainClass": "Exercise34_1.Exercise34_1",
+        "vmArgs": "--module-path C:/javafx-sdk-24/lib --add-modules javafx.controls,javafx.fxml"
+      },
+      {
+        "type": "java",
+        "name": "Run Exercise35_01",
+        "request": "launch",
+        "mainClass": "Exercise35_01.Exercise35_01",
+        "vmArgs": "--module-path C:/javafx-sdk-24/lib --add-modules javafx.controls,javafx.fxml"
+      }
+    ]
+  }
+  
